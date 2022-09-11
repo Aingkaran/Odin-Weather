@@ -1,0 +1,56 @@
+.container{
+    padding: 20px;
+    height: 100vh;
+}
+
+.title{
+    width: 100vw;
+    height: 10vh;
+    background-color: grey;
+    font-size: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Search{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Weather-Container{
+    display: flex;
+    gap: 2vw;
+    margin-top: 2vh;
+    border: 5px solid black;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+
+}
+
+.split-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.split-right{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.Temperature{
+    font-size: 8vh;
+}
+
+.feels-likeTemp{
+    font-size: 3vh;
+}
