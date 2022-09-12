@@ -10,7 +10,7 @@ locationSearch.addEventListener('click', ()=>{
     locationText.value= ""
 
 
-fetch('http://api.openweathermap.org/geo/1.0/direct?q='+locationset+'&limit=5&appid=eaae588901936a4177510a9a9982cbfe', {mode: 'cors'})
+fetch('https://api.openweathermap.org/geo/1.0/direct?q='+locationset+'&limit=5&appid=eaae588901936a4177510a9a9982cbfe', {mode: 'cors'})
   .then(function (response) {
     return response.json()
   }).then(function (response) {
